@@ -101,6 +101,13 @@ a:active {
     border: dashed 1px black;
     padding: .5em;
 }
+#crypto-div {
+    max-width: 50%;
+    text-align: left;
+    margin: 1em auto;
+    border: dashed 1px black;
+    padding: .5em;
+}
 
 .divider {
     display: inline;
