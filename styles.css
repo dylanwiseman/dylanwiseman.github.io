@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 7em;
+    display: inline;
+    margin: 2em;
+    border-radius: 50%;
+    box-shadow: .0em .25em 1em gray;
+}
+
+img:hover {
+    transform: translate(0px,-2px);
+    box-shadow: .0em .0em 1em lightgray;
+    transition: ease-in-out .2s
+}
+
+h1 {
+    font-family: lores-12,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+h2 {
+    font-family: lores-12,sans-serif;
+font-weight: 700;
+font-style: normal;
+margin-top: 0;
+margin-bottom: .5em;
+}
+
+h3 {
+    font-family: lores-12,sans-serif;
+font-weight: 700;
+font-style: normal;
+margin-top: 1em;
+}
+
+h5 {
+    font-family: lores-12,sans-serif;
+font-weight: 700;
+font-style: normal;
+margin-top: 1em;
+}
+
+h6 {
+    font-size: 16px;
+    font-family: lores-12,sans-serif;
+font-weight: 400;
+font-style: normal;
+display: inline;
+margin: .5em .25em .5em .25em;
+border: solid 1px black;
+}
+
+h6:hover {
+    background-color: rgb(148,193,198);
+    box-shadow: .1em .1em 0em yellow;
+}
+
+#skills-div {
+    max-width: 60%;
+    margin: auto;
+    padding: 1em;
+}
+
+p {
+text-align: left;
+font-size: 13px;
+font-family: 'Ubuntu', sans-serif;
+margin-top: .25em;
+}
+
+a {
+font-family: lores-12,sans-serif;
+font-weight: 400;
+font-style: normal;
+display: inline;
+color: rgb(93, 136, 141);
+text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(241, 168, 138);
+    font-style: italic;
+    color: black;
+    box-shadow: .1em .1em 0em yellow;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#workout-div {
+    max-width: 50%;
+    text-align: left;
+    margin: auto;
+    border: dashed 1px black;
+    padding: .5em;
+}
+
+.divider {
+    display: inline;
+}
+
+#contact-div {
+    margin-top: 1em;
+}
+
