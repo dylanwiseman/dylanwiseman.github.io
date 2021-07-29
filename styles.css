@@ -1,142 +1,142 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 img {
-    width: 7em;
-    display: inline;
-    margin: 2em;
-    border-radius: 50%;
-    box-shadow: .0em .25em 1em gray;
+  width: 7em;
+  display: inline;
+  margin: 2em;
+  border-radius: 50%;
+  box-shadow: 0em 0.25em 1em gray;
 }
 
 img:hover {
-    transform: translate(0px,-2px);
-    box-shadow: .0em .0em 1em lightgray;
-    transition: ease-in-out .2s
+  transform: translate(0px, -2px);
+  box-shadow: 0em 0em 1em lightgray;
+  transition: ease-in-out 0.2s;
 }
 
 h1 {
-    font-family: lores-12,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: lores-12, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h2 {
-    font-family: lores-12,sans-serif;
-font-weight: 700;
-font-style: normal;
-margin-top: 0;
-margin-bottom: .5em;
+  font-family: lores-12, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 h3 {
-    font-family: lores-12,sans-serif;
-font-weight: 700;
-font-style: normal;
-margin-top: 1em;
+  font-family: lores-12, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 1em;
 }
 
 h5 {
-    font-family: lores-12,sans-serif;
-font-weight: 700;
-font-style: normal;
-margin-top: 1em;
+  font-family: lores-12, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 1em;
 }
 
 h6 {
-    font-size: 16px;
-    font-family: lores-12,sans-serif;
-font-weight: 400;
-font-style: normal;
-display: inline;
-margin: .5em .25em .5em .25em;
-border: solid 1px black;
+  font-size: 16px;
+  font-family: lores-12, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline;
+  margin: 0.5em 0.25em 0.5em 0.25em;
+  border: solid 1px black;
 }
 
 h6:hover {
-    background-color: rgb(148,193,198);
-    box-shadow: .1em .1em 0em yellow;
+  background-color: rgb(148, 193, 198);
+  box-shadow: 0.1em 0.1em 0em yellow;
 }
 
 #skills-div {
-    max-width: 50%;
-    margin: auto;
-    padding: 1em;
+  max-width: 50%;
+  margin: auto;
+  padding: 1em;
 }
 
 p {
-text-align: left;
-font-size: 13px;
-font-family: 'Ubuntu', sans-serif;
-margin-top: .25em;
+  text-align: left;
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 0.25em;
 }
 
 a {
-font-family: lores-12,sans-serif;
-font-weight: 400;
-font-style: normal;
-display: inline;
-color: rgb(93, 136, 141);
-text-decoration: none;
+  font-family: lores-12, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline;
+  color: rgb(93, 136, 141);
+  text-decoration: none;
 }
 
 a:hover {
-    background-color: rgb(241, 168, 138);
-    font-style: italic;
-    color: black;
-    box-shadow: .1em .1em 0em yellow;
+  background-color: rgb(241, 168, 138);
+  font-style: italic;
+  color: black;
+  box-shadow: 0.1em 0.1em 0em yellow;
 }
 
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #workout-div {
-    max-width: 50%;
-    text-align: left;
-    margin: auto;
-    border: dashed 1px black;
-    padding: .5em;
+  max-width: 50%;
+  text-align: left;
+  margin: auto;
+  border: dashed 1px black;
+  padding: 0.5em;
 }
 #crypto-div {
-    max-width: 50%;
-    text-align: left;
-    margin: 1em auto;
-    border: dashed 1px black;
-    padding: .5em;
+  max-width: 50%;
+  text-align: left;
+  margin: 1em auto;
+  border: dashed 1px black;
+  padding: 0.5em;
 }
 
 .divider {
-    display: inline;
+  display: inline;
 }
 
 #contact-div {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .red {
-    color: red !important;
-    background-color: black !important;
+  color: red !important;
+  background-color: black !important;
 }
 
 .red-img {
-    box-shadow: .0em .25em 1em red;
+  box-shadow: 0em 0.25em 1em red;
 }
 
 .red-border {
-    border-color: red !important;
+  border-color: red !important;
 }
 
 .red-link {
-    color: white !important;
+  color: white !important;
 }
 
 .red-link:hover {
-    background-color: rgb(207, 67, 250);
-    box-shadow: .1em .1em 0em blue;
-    font-style: italic;
+  background-color: rgb(207, 67, 250);
+  box-shadow: 0.1em 0.1em 0em blue;
+  font-style: italic;
 }
