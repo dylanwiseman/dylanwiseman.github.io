@@ -118,3 +118,25 @@ a:active {
     margin-bottom: 1em;
 }
 
+.red {
+    color: red !important;
+    background-color: black !important;
+}
+
+.red-img {
+    box-shadow: .0em .25em 1em red;
+}
+
+.red-border {
+    border-color: red !important;
+}
+
+.red-link {
+    color: white !important;
+}
+
+.red-link:hover {
+    background-color: rgb(207, 67, 250);
+    box-shadow: .1em .1em 0em blue;
+    font-style: italic;
+}
