@@ -94,21 +94,7 @@ a:active {
   text-decoration: none;
 }
 
-#workout-div {
-  max-width: 50%;
-  text-align: left;
-  margin: auto;
-  border: dashed 1px black;
-  padding: 0.5em;
-}
-#crypto-div {
-  max-width: 50%;
-  text-align: left;
-  margin: 1em auto;
-  border: dashed 1px black;
-  padding: 0.5em;
-}
-#job-finder-div {
+.project {
   max-width: 50%;
   text-align: left;
   margin: 1em auto;
