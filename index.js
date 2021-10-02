@@ -4,6 +4,7 @@ const a = document.querySelectorAll("a");
 const h6 = document.querySelectorAll("h6");
 let toggle = false;
 
+//Theme change easter egg:
 const redTheme = () => {
   if (toggle === false) {
     img.src = "8-bit-dylan-red.png";
