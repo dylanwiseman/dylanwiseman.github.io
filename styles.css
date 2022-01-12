@@ -10,6 +10,8 @@ img {
   margin: 2em;
   border-radius: 50%;
   box-shadow: 0em 0.25em 1em gray;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
 }
 
 img:hover {
@@ -85,11 +87,26 @@ a {
   text-decoration: none;
 }
 
+.a-style {
+  font-family: lores-12, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 a:hover {
   background-color: rgb(241, 168, 138);
   font-style: italic;
   color: black;
   box-shadow: 0.1em 0.1em 0em yellow;
+}
+
+.highlight {
+  background-color: rgb(252, 253, 181);
+  font-weight: bold;
 }
 
 a:active {
