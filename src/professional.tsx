@@ -9,5 +9,15 @@ export const professional = [
     image: weave,
     desc: "Developed and maintained Weave’s marketing website, landing pages, and employee intranet.",
     tags: ["React", "Javascript", "Next.js", "GraphQL", "PHP"],
+    reviews: [
+      {
+        body: "Dylan seems to pick things up immediately, no matter the difficulty or learning curve.",
+        title: "Spencer Dixon, Sr UX/UI Designer",
+      },
+      {
+        body: "Dylan is extremely talented and well rounded and will be an asset to any team.",
+        title: "Brett Peterson, Director of Marketing Dev",
+      },
+    ],
   },
 ];

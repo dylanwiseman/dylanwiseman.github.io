@@ -36,6 +36,7 @@ function App() {
         image={project?.image}
         tags={project?.tags}
         dates={project?.dates}
+        reviews={project?.reviews}
       />
     );
   });

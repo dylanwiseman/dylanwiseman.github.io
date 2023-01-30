@@ -8,6 +8,7 @@ export default function Project({
   tags,
   dates,
   title,
+  reviews,
 }: any) {
   const tagsArray = tags?.map((tag: any, index: number) => {
     let color = "black";
@@ -121,6 +122,21 @@ export default function Project({
         <div className="tag-container">{tagsArray}</div>
       </div>
       <div className="bottom-tags">{tagsArray}</div>
+      {reviews && (
+        <div className="reviews">
+          {reviews?.map((review: any, index: number) => {
+            return (
+              <>
+                <p>{`"${review?.body}"`}</p>
+
+                <h6
+                  style={{ fontStyle: "italic", color: "#F5F2B8" }}
+                >{`- ${review?.title}`}</h6>
+              </>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
