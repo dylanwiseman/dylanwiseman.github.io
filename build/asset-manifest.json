@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dylanwiseman.github.io/static/css/main.377424c2.css",
+    "main.js": "/dylanwiseman.github.io/static/js/main.a65a698c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/dylanwiseman.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bitDylan.png": "/dylanwiseman.github.io/static/media/bitDylan.926f15bd49d5dbcba3b2.png",
+    "static/media/job.png": "/dylanwiseman.github.io/static/media/job.d89c043799b65cd20819.png",
+    "static/media/algo.png": "/dylanwiseman.github.io/static/media/algo.146b18cd9143cdf3d95b.png",
+    "static/media/weave.png": "/dylanwiseman.github.io/static/media/weave.80e2f87b699cc8edeaab.png",
+    "static/media/workout.png": "/dylanwiseman.github.io/static/media/workout.9d5f10c95d4e7477536a.png",
+    "static/media/pickleball.png": "/dylanwiseman.github.io/static/media/pickleball.123d7e0a0a320a97251f.png",
+    "static/media/houseplant2.png": "/dylanwiseman.github.io/static/media/houseplant2.14f6fe536704b538e3e4.png",
+    "static/media/pound.png": "/dylanwiseman.github.io/static/media/pound.dc2fc4b08464cce4c471.png",
+    "static/media/hibiscus.png": "/dylanwiseman.github.io/static/media/hibiscus.57771c7d4effb97ca946.png",
+    "static/media/aloe.png": "/dylanwiseman.github.io/static/media/aloe.3eed84d6b7a46b59ca2c.png",
+    "static/media/sunset.png": "/dylanwiseman.github.io/static/media/sunset.d5d42860c9e35c8f07b0.png",
+    "index.html": "/dylanwiseman.github.io/index.html",
+    "main.377424c2.css.map": "/dylanwiseman.github.io/static/css/main.377424c2.css.map",
+    "main.a65a698c.js.map": "/dylanwiseman.github.io/static/js/main.a65a698c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/dylanwiseman.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.377424c2.css",
+    "static/js/main.a65a698c.js"
+  ]
+}
