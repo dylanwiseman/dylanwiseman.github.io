@@ -41,7 +41,7 @@ export default function Project({
       case "Firebase":
         color = "#FE4A49";
         break;
-      case "Express":
+      case "NodeJs":
         color = "#89043D";
         break;
       case "PHP":

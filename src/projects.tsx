@@ -30,7 +30,7 @@ export const projects = [
     github: "https://github.com/dylanwiseman/pound-4-pound",
     image: pound,
     desc: "Track your fitness goals and compete against gym buddies.",
-    tags: ["React", "Javascript", "CSS", "MongoDB", "Express"],
+    tags: ["React", "Javascript", "CSS", "MongoDB", "NodeJs"],
   },
   {
     name: "4D Maze Solver",
