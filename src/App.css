@@ -212,6 +212,7 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-right: 0.1em;
   }
   .cta {
     display: block;
@@ -220,8 +221,9 @@ a:active {
     margin-top: 0;
   }
   .bottom-tags p {
-    margin-left: 0.2em;
+    margin-left: 0.1em;
     font-size: 0.7em;
+    margin-right: 0.1em;
   }
   .tag-container {
     display: none;
