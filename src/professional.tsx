@@ -8,7 +8,7 @@ export const professional = [
     link: "https://www.getweave.com",
     image: weave,
     desc: "Developed and maintained Weave’s marketing website, landing pages, and employee intranet.",
-    tags: ["React", "Javascript", "Next.js", "GraphQL", "PHP"],
+    tags: ["React", "Javascript", "Next.js", "GraphQL", "SCSS"],
     reviews: [
       {
         body: "Dylan seems to pick things up immediately, no matter the difficulty or learning curve.",

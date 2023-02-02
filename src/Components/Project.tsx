@@ -44,7 +44,7 @@ export default function Project({
       case "NodeJs":
         color = "#89043D";
         break;
-      case "PHP":
+      case "SCSS":
         color = "#F1A78A";
         break;
     }
