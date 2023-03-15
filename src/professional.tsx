@@ -18,6 +18,10 @@ export const professional = [
         body: "Dylan is extremely talented and well rounded and will be an asset to any team.",
         title: "Brett Peterson, Director of Marketing Dev",
       },
+      {
+        body: "10/10, would work with again.",
+        title: "Mike Morris, Sr Web Developer",
+      },
     ],
   },
 ];
