@@ -15,37 +15,47 @@ export default function Project({
     let fontColor = "white";
     switch (tag) {
       case "React":
-        color = "#A491D3";
+        color = "#169ECA";
         break;
       case "React Native":
-        color = "#818AA3";
-        break;
-      case "CSS":
-        color = "#C5DCA0";
+        color = "#61DAFB";
         fontColor = "black";
         break;
+      case "CSS":
+        color = "#2D52E5";
+        fontColor = "white";
+        break;
       case "Typescript":
-        color = "#94C1C6";
+        color = "#397CC7";
         break;
       case "Javascript":
-        color = "#F5F2B8";
+        color = "#F0DC56";
         fontColor = "black";
         break;
       case "GraphQL":
-        color = "rgb(150, 69, 150)";
+        color = "#DE34A6";
         break;
       case "MongoDB":
-        color = "#F9DAD0";
-        fontColor = "black";
+        color = "#026548";
         break;
       case "Firebase":
-        color = "#FE4A49";
+        color = "#F6A312";
         break;
       case "NodeJs":
-        color = "#89043D";
+        color = "#519942";
         break;
       case "SCSS":
-        color = "#F1A78A";
+        color = "#C76393";
+        break;
+      case "PHP":
+        color = "#7477AE";
+        break;
+      case "Next.js":
+        fontColor = "white";
+        color = "black";
+        break;
+      case "TailwindCSS":
+        color = "#37BDF8";
         break;
     }
     return (

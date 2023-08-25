@@ -13,7 +13,7 @@ export const projects = [
     github: "https://github.com/dylanwiseman/pickleball",
     image: pickleball,
     desc: "Mobile app for keeping score and logging stats for pickleball games with friends.",
-    tags: ["React Native", "Typescript", "MongoDB", "GraphQL", "Firebase"],
+    tags: ["React Native", "MongoDB", "GraphQL", "Firebase", "NodeJs"],
   },
   {
     name: "Sunset Cave",
