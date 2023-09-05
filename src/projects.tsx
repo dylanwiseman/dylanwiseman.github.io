@@ -4,8 +4,17 @@ import job from "./images/job.png";
 import workout from "./images/workout.png";
 import sunset from "./images/sunset.png";
 import pickleball from "./images/pickleball.png";
+import jpfc from "./images/jpfc.png";
 
 export const projects = [
+  {
+    name: "JPFC: Japanese Flashcards",
+    link: "https://github.com/dylanwiseman/flashcards",
+    github: "https://github.com/dylanwiseman/flashcards",
+    image: jpfc,
+    desc: "Flashcard app for studying Japanese vocabulary.",
+    tags: ["React Native", "Typescript", "Figma"],
+  },
   {
     name: "Pickleball App",
     link: "https://www.youtube.com/watch?v=YWhVjIOvnvo",
