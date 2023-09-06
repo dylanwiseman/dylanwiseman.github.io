@@ -30,9 +30,7 @@ function App() {
         name={project?.name}
         desc={project?.desc}
         title={project?.title}
-        // github={project?.github}
         link={project?.link}
-        // demo={project?.demo}
         image={project?.image}
         tags={project?.tags}
         dates={project?.dates}
