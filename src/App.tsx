@@ -7,6 +7,8 @@ import Project from "./Components/Project";
 import { projects } from "./projects";
 import { professional } from "./professional";
 import { NextUIProvider } from "@nextui-org/react";
+// import Header from "./Components/Header";
+import GlassCard from "./Components/HeaderCard";
 
 function App() {
   const projectsArray = projects?.map((project, index) => {
@@ -42,49 +44,18 @@ function App() {
 
   return (
     <NextUIProvider>
-      <div className="App">
-        <header className="App-header">
-          <div className="about-div">
-            <img src={bitDylan} alt="8-bit Dylan" className="profpic" />
-            <h1>Dylan Wiseman</h1>
-            <h3>Full-Stack Software Engineer</h3>
-            <h5>
-              also sci-fi author, Spotify artist, and occasional party host
-            </h5>
-            <div id="contact-div">
-              <a
-                className="cta"
-                href="mailto:dylan.wiseman22@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Send me an email
-              </a>
-              <a
-                href="https://github.com/dylanwiseman"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <p className="divider">|</p>
-              <a
-                href="https://www.linkedin.com/in/jdylanwiseman/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-              <p className="divider">|</p>
-              <a
-                href="https://docs.google.com/document/d/1uKF8PeMs7TatjTy9rwlLAElnaZjqvix90ZGTzyKGiuw/edit"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-            </div>
+      <div className="App bg-gradient-to-b from-cyan-200 to-cyan-400">
+        <div className="flex row w-full">
+          <div className="flex col w-full">
+            <GlassCard />
           </div>
+          <div className="flex col w-full">
+            <GlassCard />
+          </div>
+        </div>
+
+        {/* <Header /> */}
+        <header className="App-header">
           <div className="experience-div">
             <h2>Professional:</h2>
             <div className="project-container">
