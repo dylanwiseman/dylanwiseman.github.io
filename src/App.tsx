@@ -4,6 +4,7 @@ import plant2 from "./images/houseplant2.png";
 import hibiscus from "./images/hibiscus.png";
 import aloe from "./images/aloe.png";
 import Project from "./Components/Project";
+import ProjectCard from "./Components/ProjectCard";
 import { projects } from "./projects";
 import { professional } from "./professional";
 import { NextUIProvider } from "@nextui-org/react";
@@ -13,7 +14,7 @@ import GlassCard from "./Components/HeaderCard";
 function App() {
   const projectsArray = projects?.map((project, index) => {
     return (
-      <Project
+      <ProjectCard
         key={index}
         name={project?.name}
         desc={project?.desc}
@@ -44,7 +45,7 @@ function App() {
 
   return (
     <NextUIProvider>
-      <div className="App bg-gradient-to-b from-cyan-200 to-cyan-400">
+      <div className="App bg-white">
         <div className="flex row w-full">
           <div className="flex col w-full">
             <GlassCard />

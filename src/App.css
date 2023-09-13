@@ -85,6 +85,7 @@ p {
   font-size: 13px;
   font-family: "Ubuntu", sans-serif;
   margin-top: 0.25em;
+  color: white;
 }
 
 a {
@@ -92,7 +93,7 @@ a {
   font-weight: 400;
   font-style: normal;
   display: inline;
-  color: rgb(93, 136, 141);
+  color: white;
   text-decoration: none;
 }
 
@@ -101,7 +102,7 @@ a {
   font-weight: 400;
   font-style: normal;
   display: inline;
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 16px;
 }

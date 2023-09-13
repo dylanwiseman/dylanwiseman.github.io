@@ -26,10 +26,10 @@ export default function GlassCard() {
           <div className="relative col-span-6 md:col-span-3">
             <Image
               alt="Album cover"
-              className="object-cover"
+              className="object-cover shadow-none rounded-sm"
               height={100}
               width={100}
-              shadow="md"
+              shadow="none"
               src={bitDylan}
             />
           </div>
@@ -40,7 +40,7 @@ export default function GlassCard() {
                 <h1 className="font-semibold text-foreground/90 text-xl">
                   Dylan Wiseman
                 </h1>
-                <p className="text-small text-foreground/80 mb-2">
+                <p className="text-small text-foreground/80 mb-1">
                   Developer, Author & Artist
                 </p>
               </div>
@@ -49,7 +49,7 @@ export default function GlassCard() {
             <div className="flex w-full items-center">
               <Button
                 isIconOnly
-                className="data-[hover]:bg-foreground/0"
+                className="data-[hover]:bg-foreground/0 justify-start"
                 radius="full"
                 variant="light"
               >
@@ -66,7 +66,7 @@ export default function GlassCard() {
               </Button>
               <Button
                 isIconOnly
-                className="data-[hover]:bg-foreground/0"
+                className="data-[hover]:bg-foreground/0 justify-start"
                 radius="full"
                 variant="light"
               >
@@ -83,7 +83,7 @@ export default function GlassCard() {
               </Button>
               <Button
                 isIconOnly
-                className="data-[hover]:bg-foreground/0"
+                className="data-[hover]:bg-foreground/0 justify-start"
                 radius="full"
                 variant="light"
               >
@@ -100,7 +100,7 @@ export default function GlassCard() {
               </Button>
               <Button
                 isIconOnly
-                className="data-[hover]:bg-foreground/0"
+                className="data-[hover]:bg-foreground/0 justify-start"
                 radius="full"
                 variant="light"
               >
