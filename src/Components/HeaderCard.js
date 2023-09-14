@@ -5,6 +5,8 @@ import mail from "../images/mail.png";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
 import resume from "../images/resume.png";
+import camera from "../images/camera.png";
+import book from "../images/book.png";
 
 export default function GlassCard() {
   return (
@@ -98,6 +100,40 @@ export default function GlassCard() {
                 width={30}
                 shadow="none"
                 src={resume}
+              />
+            </a>
+          </Button>
+          <Button
+            isIconOnly
+            className="data-[hover]:bg-foreground/0 justify-start"
+            radius="full"
+            variant="light"
+          >
+            <a href="https://docs.google.com/document/d/1uKF8PeMs7TatjTy9rwlLAElnaZjqvix90ZGTzyKGiuw/edit">
+              <Image
+                alt="Album cover"
+                className="object-cover"
+                height={30}
+                width={30}
+                shadow="none"
+                src={camera}
+              />
+            </a>
+          </Button>
+          <Button
+            isIconOnly
+            className="data-[hover]:bg-foreground/0 justify-start"
+            radius="full"
+            variant="light"
+          >
+            <a href="https://docs.google.com/document/d/1uKF8PeMs7TatjTy9rwlLAElnaZjqvix90ZGTzyKGiuw/edit">
+              <Image
+                alt="Album cover"
+                className="object-cover"
+                height={25}
+                width={25}
+                shadow="none"
+                src={book}
               />
             </a>
           </Button>
