@@ -148,7 +148,6 @@ a:active {
   justify-content: flex-start;
   align-items: flex-start;
   flex-grow: 2;
-  padding: 0 1em;
   width: 60%;
 }
 .project-container {
@@ -174,7 +173,7 @@ a:active {
   color: black;
 }
 .tag-container {
-  width: 90px;
+  width: 120px;
 }
 
 .divider {

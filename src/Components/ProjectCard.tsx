@@ -1,5 +1,12 @@
 import React from "react";
-import { Card, CardBody, Image, Button, Progress } from "@nextui-org/react";
+import {
+  Card,
+  CardBody,
+  Image,
+  Button,
+  Progress,
+  Chip,
+} from "@nextui-org/react";
 import bitDylan from "../images/bitDylan.png";
 // import { HeartIcon } from "./HeartIcon";
 // import { PauseCircleIcon } from "./PauseCircleIcon";
@@ -106,7 +113,7 @@ export default function ProjectCard({
         shadow="none"
         src={image}
       />
-      <CardBody className="bg-gradient-to-r from-black to-opacity-20">
+      <CardBody className="bg-gradient-to-r from-black to-opacity-20 flex-row p-0">
         {/* <div className="project">
           <div className="project-row"> */}
         {/* <a href={link} target="_blank" rel="noopener noreferrer">
@@ -118,7 +125,7 @@ export default function ProjectCard({
             style={{ border: "1px solid black" }}
           />
         </a> */}
-        <div className="project-content ">
+        <div className="project-content py-4 pl-4 pr-0">
           <a
             href={link}
             target="_blank"
@@ -160,9 +167,10 @@ export default function ProjectCard({
           )}
           <p className="top-desc">{desc}</p>
         </div>
-        <div className="tag-container">{tagsArray}</div>
+        <div className="tag-container py-4 px-2 backdrop-blur-sm">
+          {tagsArray}
+        </div>
         {/* </div> */}
-        <div className="bottom-tags">{tagsArray}</div>
         {reviews && (
           <div className="reviews">
             {reviews?.map((review: any, index: any) => {
