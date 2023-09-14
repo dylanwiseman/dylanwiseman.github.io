@@ -45,11 +45,23 @@ function App() {
 
   return (
     <NextUIProvider>
-      <div className="App bg-white">
-        <div className="flex row w-full">
-          <div className="flex col w-full">
-            <GlassCard />
-          </div>
+      <div className="App bg-white px-12">
+        <div className="flex row border-b border-black relative">
+          <img
+            src={plant2}
+            alt="plant 2"
+            className="plant plant2 bottom-0 right-20"
+          />
+          <img
+            src={hibiscus}
+            alt="plant 1"
+            className="plant hibiscus bottom-0 right-60"
+          />
+          <img
+            src={aloe}
+            alt="plant 1"
+            className="plant aloe bottom-0 right-40"
+          />
           <div className="flex col w-full">
             <GlassCard />
           </div>
@@ -59,18 +71,11 @@ function App() {
         <header className="App-header">
           <div className="experience-div">
             <h2>Professional:</h2>
-            <div className="project-container">
-              <img src={plant2} alt="plant 2" className="plant plant2" />
-              <img src={hibiscus} alt="plant 1" className="plant hibiscus" />
-              {professionalArray}
-            </div>
+            <div className="project-container">{professionalArray}</div>
           </div>
           <div id="projects-div">
             <h2>Personal:</h2>
-            <div className="project-container">
-              <img src={aloe} alt="plant 1" className="plant aloe" />
-              {projectsArray}
-            </div>
+            <div className="project-container">{projectsArray}</div>
           </div>
         </header>
       </div>
