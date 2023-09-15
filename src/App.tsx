@@ -98,7 +98,7 @@ function App() {
                 </a>
               </Button>
               <p>
-                FYI this portfolio is built on React using Typescript,
+                FYI this portfolio is built on React using Typescript and
                 Javascript, TailwindCSS, and NextUI.
               </p>
             </div>
