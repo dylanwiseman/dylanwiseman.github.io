@@ -1,10 +1,10 @@
-import pound from "./images/pound.png";
-import algo from "./images/algo.png";
-import job from "./images/job.png";
-import workout from "./images/workout.png";
-import sunset from "./images/sunset.png";
-import pickleball from "./images/pickleball.png";
-import jpfc from "./images/jpfc.png";
+import pound from "./images/p4pbg.png";
+import algo from "./images/4d.png";
+import job from "./images/jobbg.png";
+import workout from "./images/w.png";
+import sunset from "./images/mazebg.png";
+import pickleball from "./images/pickleballbg.png";
+import jpfc from "./images/jpfcbg.png";
 
 export const projects = [
   {

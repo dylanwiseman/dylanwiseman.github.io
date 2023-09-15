@@ -1,23 +1,7 @@
 import React from "react";
-import {
-  Card,
-  CardBody,
-  Image,
-  Button,
-  Progress,
-  Chip,
-} from "@nextui-org/react";
-import bitDylan from "../images/bitDylan.png";
-// import { HeartIcon } from "./HeartIcon";
-// import { PauseCircleIcon } from "./PauseCircleIcon";
-// import { NextIcon } from "./NextIcon";
-// import { PreviousIcon } from "./PreviousIcon";
-// import { RepeatOneIcon } from "./RepeatOneIcon";
-// import { ShuffleIcon } from "./ShuffleIcon";
-// import mail from "../images/mail.png";
-// import github from "../images/github.png";
-// import linkedin from "../images/linkedin.png";
-// import resume from "../images/resume.png";
+import { Card, CardBody, Image, Button } from "@nextui-org/react";
+import githubimg from "../images/github.png";
+import youtube from "../images/video.png";
 
 export default function ProjectCard({
   name,
@@ -102,92 +86,100 @@ export default function ProjectCard({
   return (
     <Card
       isBlurred
-      className="bg-transparent w-full m-4 border-none rounded-md relative"
+      className="group bg-transparent w-full m-4 ml-0 border-none rounded-sm relative transform hover:translate-y-1 transition-transform duration-300 td-1000 border border-black"
       shadow="md"
     >
-      <Image
-        alt="Album cover"
-        className="object-cover shadow-none rounded-sm absolute z-0"
-        // height=
-        width="100%"
-        shadow="none"
-        src={image}
-      />
-      <CardBody className="bg-gradient-to-r from-black to-opacity-20 flex-row p-0">
-        {/* <div className="project">
-          <div className="project-row"> */}
-        {/* <a href={link} target="_blank" rel="noopener noreferrer">
-          <img
-            src={image}
-            alt="project"
-            width={100}
-            height={100}
-            style={{ border: "1px solid black" }}
-          />
-        </a> */}
-        <div className="project-content py-4 pl-4 pr-0">
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="highlight white"
-          >
-            {name}
-          </a>
-          {dates && <span className="h6">{dates}</span>}
-          {title && (
-            <span
-              style={{ fontStyle: "italic", marginBottom: ".5em" }}
-              className="h6"
-            >
-              {title}
-            </span>
-          )}
-          {demo && (
-            <>
+      <a href={link ? link : github} target="_blank" rel="noopener noreferrer">
+        <Image
+          alt="Album cover"
+          className="object-cover shadow-none rounded-sm absolute z-0"
+          // height=
+          width="100%"
+          shadow="none"
+          src={image}
+        />
+        <CardBody className="group bg-gradient-to-r from-white to-white/30 flex-col p-0 backdrop-blur-sm hover:backdrop-blur-none transition-all duration-1000 td-1000 border border-black">
+          <div className="flex flex-row justify-between w-full">
+            <div className="project-content py-4 pl-4 pr-0 grow-2">
               <a
-                href={demo}
+                href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="second-link"
+                className="highlight black"
               >
-                Demo Video
+                {name}
               </a>
-            </>
-          )}
-          {github && (
-            <a
-              href={github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="second-link"
-            >
-              GitHub
-            </a>
-          )}
-          <p className="top-desc">{desc}</p>
-        </div>
-        <div className="tag-container py-4 px-2 backdrop-blur-sm">
-          {tagsArray}
-        </div>
-        {/* </div> */}
-        {reviews && (
-          <div className="reviews">
-            {reviews?.map((review: any, index: any) => {
-              return (
-                <>
-                  <p>{`"${review?.body}"`}</p>
-
-                  <h6
-                    style={{ fontStyle: "italic", color: "#F5F2B8" }}
-                  >{`- ${review?.title}`}</h6>
-                </>
-              );
-            })}
+              {dates && <span className="h6">{dates}</span>}
+              {title && (
+                <span
+                  style={{ fontStyle: "italic", marginBottom: ".5em" }}
+                  className="h6"
+                >
+                  {title}
+                </span>
+              )}
+              <div className="flex flex-row">
+                {demo && (
+                  <Button
+                    isIconOnly
+                    className="data-[hover]:bg-foreground/0 justify-start"
+                    radius="full"
+                    variant="light"
+                  >
+                    <a href={demo}>
+                      <Image
+                        alt="Album cover"
+                        className="object-cover"
+                        height={25}
+                        width={25}
+                        shadow="none"
+                        src={youtube}
+                      />
+                    </a>
+                  </Button>
+                )}
+                {github && (
+                  <Button
+                    isIconOnly
+                    className="data-[hover]:bg-foreground/0 justify-start"
+                    radius="full"
+                    variant="light"
+                  >
+                    <a href={github}>
+                      <Image
+                        alt="Album cover"
+                        className="object-cover"
+                        height={23}
+                        width={23}
+                        shadow="none"
+                        src={githubimg}
+                      />
+                    </a>
+                  </Button>
+                )}
+              </div>
+              <p className="top-desc black">{desc}</p>
+            </div>
+            <div className="tag-container py-4 px-2">{tagsArray}</div>
           </div>
-        )}
-        {/* </div> */}
-      </CardBody>
+          {reviews && (
+            <div className="reviews px-4 pb-2">
+              {reviews?.map((review: any, index: any) => {
+                return (
+                  <>
+                    <p className="text-left">{`"${review?.body}"`}</p>
+
+                    <h6
+                      className="text-left"
+                      style={{ fontStyle: "italic", color: "#F5F2B8" }}
+                    >{`- ${review?.title}`}</h6>
+                  </>
+                );
+              })}
+            </div>
+          )}
+        </CardBody>
+      </a>
     </Card>
   );
 }

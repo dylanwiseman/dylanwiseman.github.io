@@ -29,7 +29,7 @@ function App() {
 
   const professionalArray = professional?.map((project, index) => {
     return (
-      <Project
+      <ProjectCard
         key={index}
         name={project?.name}
         desc={project?.desc}
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <NextUIProvider>
-      <div className="App bg-white px-12">
+      <div className="App bg-white px-12 xl:px-2 max-w-screen-xl mx-auto">
         <div className="flex row border-b border-black relative">
           <img
             src={plant2}
@@ -66,18 +66,16 @@ function App() {
             <GlassCard />
           </div>
         </div>
-
-        {/* <Header /> */}
-        <header className="App-header">
-          <div className="experience-div">
-            <h2>Professional:</h2>
+        <div className="flex flex-col lg:flex-row justify-center">
+          <div className="experience-div lg:mr-8">
+            <h2 className="mt-4 text-xl">Professional:</h2>
             <div className="project-container">{professionalArray}</div>
           </div>
           <div id="projects-div">
-            <h2>Personal:</h2>
+            <h2 className="mt-4 text-xl">Personal:</h2>
             <div className="project-container">{projectsArray}</div>
           </div>
-        </header>
+        </div>
       </div>
     </NextUIProvider>
   );

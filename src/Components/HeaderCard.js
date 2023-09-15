@@ -7,6 +7,7 @@ import linkedin from "../images/linkedin.png";
 import resume from "../images/resume.png";
 import camera from "../images/camera.png";
 import book from "../images/book.png";
+import spotify from "../images/spotify.png";
 
 export default function GlassCard() {
   return (
@@ -29,7 +30,7 @@ export default function GlassCard() {
               Dylan Wiseman
             </h1>
             <p className="text-small text-foreground/80 mb-1">
-              Developer, Author & Artist
+              Developer, Author, Photographer, Artist
             </p>
           </div>
         </div>
@@ -106,15 +107,15 @@ export default function GlassCard() {
           <Button
             isIconOnly
             className="data-[hover]:bg-foreground/0 justify-start"
-            radius="full"
+            radius="none"
             variant="light"
           >
-            <a href="https://docs.google.com/document/d/1uKF8PeMs7TatjTy9rwlLAElnaZjqvix90ZGTzyKGiuw/edit">
+            <a href="https://www.instagram.com/dylwiseman/">
               <Image
                 alt="Album cover"
-                className="object-cover"
-                height={30}
-                width={30}
+                className="object-cover rounded-none"
+                height={25}
+                width={25}
                 shadow="none"
                 src={camera}
               />
@@ -123,17 +124,34 @@ export default function GlassCard() {
           <Button
             isIconOnly
             className="data-[hover]:bg-foreground/0 justify-start"
-            radius="full"
+            radius="none"
             variant="light"
           >
-            <a href="https://docs.google.com/document/d/1uKF8PeMs7TatjTy9rwlLAElnaZjqvix90ZGTzyKGiuw/edit">
+            <a href="http://www.reesagency.com/authors">
               <Image
                 alt="Album cover"
-                className="object-cover"
+                className="object-cover rounded-none"
+                height={30}
+                width={30}
+                shadow="none"
+                src={book}
+              />
+            </a>
+          </Button>
+          <Button
+            isIconOnly
+            className="data-[hover]:bg-foreground/0 justify-start"
+            radius="none"
+            variant="light"
+          >
+            <a href="https://open.spotify.com/artist/2eHTvS0whEgEoF1aNQ1Rh5">
+              <Image
+                alt="Album cover"
+                className="object-cover rounded-none"
                 height={25}
                 width={25}
                 shadow="none"
-                src={book}
+                src={spotify}
               />
             </a>
           </Button>
