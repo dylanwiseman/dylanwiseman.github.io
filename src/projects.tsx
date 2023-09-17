@@ -46,7 +46,7 @@ export const projects = [
     link: "https://github.com/dylanwiseman/maze-solver",
     github: "https://github.com/dylanwiseman/maze-solver",
     image: algo,
-    desc: "An algorithm that solves 4D mazes by crossing the dimensional barrier that separates mazes in the Maze-verse.",
+    desc: "Solves 4D mazes by crossing the dimensional barrier that separates mazes in the Maze-verse.",
     tags: ["Javascript"],
   },
   {

@@ -11,8 +11,8 @@ import spotify from "../images/spotify.png";
 
 export default function GlassCard() {
   return (
-    <div className="flex row p-6">
-      <div className="mr-6">
+    <div className="flex row p-6 pb-12 md:pb-6">
+      <div className="mr-6 hidden md:block">
         <Image
           alt="Album cover"
           className="object-cover shadow-none rounded-sm"

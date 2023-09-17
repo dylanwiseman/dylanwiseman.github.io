@@ -44,7 +44,7 @@ function App() {
 
   return (
     <NextUIProvider>
-      <div className="App bg-white px-12 xl:px-2 max-w-screen-xl mx-auto">
+      <div className="App bg-white px-4 md:px-12 xl:px-2 max-w-screen-xl mx-auto">
         <div className="flex row border-b border-black relative">
           <img
             src={plant2}
@@ -66,7 +66,7 @@ function App() {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row justify-center">
-          <div className="experience-div lg:max-w-lg xl: max-w-xl lg:mr-8">
+          <div className="experience-div lg:max-w-lg xl:max-w-xl lg:mr-8">
             <h2 className="mt-4 text-xl">Professional:</h2>
             <div className="project-container">{professionalArray}</div>
             <div>
@@ -74,9 +74,9 @@ function App() {
               <p>
                 I graduated BYU in 2019 with a degree in Marketing. After two
                 years of tech sales, I decided I wanted to build the products
-                instead and learned to code at Devmountain in 2021. On top of my
-                dev work, I'm a sci-fi author at Rees Literary Agency, an artist
-                on Spotify, and a photographer in my free time. If you want to
+                instead and learned to code at Devmountain. On top of my dev
+                work, I'm a sci-fi author at Rees Literary Agency, an artist on
+                Spotify, and a photographer in my free time. If you want to
                 offer me a job, collab on a song, or shoot some pics, send me an
                 email.
               </p>
@@ -103,7 +103,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div id="projects-div">
+          <div id="projects-div lg:max-w-lg xl:max-w-xl lg:min-w-lg">
             <h2 className="mt-4 text-xl">Personal:</h2>
             <div className="project-container">{projectsArray}</div>
           </div>

@@ -118,7 +118,7 @@ export default function ProjectCard({
                   {title}
                 </span>
               )}
-              <div className="flex flex-row">
+              <div className="flex flex-row hidden md:block">
                 {demo && (
                   <Button
                     isIconOnly
