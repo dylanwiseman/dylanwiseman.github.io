@@ -86,19 +86,19 @@ export default function ProjectCard({
   return (
     <Card
       isBlurred
-      className="group bg-transparent w-full m-4 ml-0 border-none rounded-sm relative transform hover:translate-y-1 transition-transform duration-300 td-1000 border border-black mt-0"
+      className="group bg-transparent w-full m-4 ml-0 border-none rounded-sm relative transform hover:translate-y-1 transition-transform duration-300 td-1000 border border-black"
       shadow="md"
     >
       <a href={link ? link : github} target="_blank" rel="noopener noreferrer">
         <Image
           alt="Album cover"
-          className="object-cover shadow-none rounded-sm absolute z-0 h-[175px]"
-          // height={175}
+          className="object-cover shadow-none rounded-sm absolute z-0"
+          // height=
           width="100%"
           shadow="none"
           src={image}
         />
-        <CardBody className="group bg-gradient-to-r from-white to-white/30 flex-col p-0 backdrop-blur-sm hover:backdrop-blur-none transition-all duration-1000 td-1000 border border-black h-[175px]">
+        <CardBody className="group bg-gradient-to-r from-white to-white/30 flex-col p-0 backdrop-blur-sm hover:backdrop-blur-none transition-all duration-1000 td-1000 border border-black">
           <div className="flex flex-row justify-between w-full">
             <div className="project-content py-4 pl-4 pr-0 grow-2">
               <a

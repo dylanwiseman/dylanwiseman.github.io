@@ -4,6 +4,7 @@ import mail from "./images/mail.png";
 import hibiscus from "./images/hibiscus.png";
 import aloe from "./images/aloe.png";
 import ProjectCard from "./Components/ProjectCard";
+import ProfessionalCard from "./Components/ProfessionalCard";
 import { projects } from "./projects";
 import { professional } from "./professional";
 import { NextUIProvider } from "@nextui-org/react";
@@ -13,22 +14,24 @@ import GlassCard from "./Components/HeaderCard";
 function App() {
   const projectsArray = projects?.map((project, index) => {
     return (
-      <ProjectCard
-        key={index}
-        name={project?.name}
-        desc={project?.desc}
-        github={project?.github}
-        link={project?.link}
-        demo={project?.demo}
-        image={project?.image}
-        tags={project?.tags}
-      />
+      <div className={`w-[49%] ${index % 2 !== 0 ? "mr-0" : "mr-2"}`}>
+        <ProjectCard
+          key={index}
+          name={project?.name}
+          desc={project?.desc}
+          github={project?.github}
+          link={project?.link}
+          demo={project?.demo}
+          image={project?.image}
+          tags={project?.tags}
+        />
+      </div>
     );
   });
 
   const professionalArray = professional?.map((project, index) => {
     return (
-      <ProjectCard
+      <ProfessionalCard
         key={index}
         name={project?.name}
         desc={project?.desc}
@@ -105,7 +108,9 @@ function App() {
           </div>
           <div id="projects-div lg:max-w-lg xl:max-w-xl lg:min-w-lg">
             <h2 className="mt-4 text-xl">Personal:</h2>
-            <div className="project-container">{projectsArray}</div>
+            <div className="project-container flex flex-row flex-wrap">
+              {projectsArray}
+            </div>
           </div>
         </div>
       </div>

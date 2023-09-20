@@ -8,7 +8,7 @@ import jpfc from "./images/jpfcbg.png";
 
 export const projects = [
   {
-    name: "JPFC: Japanese Flashcards",
+    name: "JPFC",
     link: "https://github.com/dylanwiseman/flashcards",
     github: "https://github.com/dylanwiseman/flashcards",
     image: jpfc,
@@ -31,6 +31,14 @@ export const projects = [
     image: sunset,
     desc: "Maze generator and maze solver, with a pretty CSS sunset.",
     tags: ["React", "Javascript", "CSS"],
+  },
+  {
+    name: "Pokébase",
+    link: "https://dylanwiseman.github.io/maze-crawler/",
+    github: "https://github.com/dylanwiseman/maze-crawler",
+    image: sunset,
+    desc: "Simple Pokémon database to practice using Vue.js and Nuxt",
+    tags: ["Vue.js", "Typescript", "Nuxt", "CSS"],
   },
   {
     name: "Pound4Pound",
