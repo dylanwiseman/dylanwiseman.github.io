@@ -14,7 +14,11 @@ import GlassCard from "./Components/HeaderCard";
 function App() {
   const projectsArray = projects?.map((project, index) => {
     return (
-      <div className={`w-[49%] ${index % 2 !== 0 ? "mr-0" : "mr-2"}`}>
+      <div
+        className={`w-full min-[576px]:w-[49%] mr-0 ${
+          index % 2 !== 0 ? "min-[576px]:mr-0" : "min-[576px]:mr-2"
+        }`}
+      >
         <ProjectCard
           key={index}
           name={project?.name}
@@ -68,8 +72,8 @@ function App() {
             <GlassCard />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center">
-          <div className="experience-div lg:max-w-lg xl:max-w-xl lg:mr-8">
+        <div className="flex flex-col min-[1184px]:flex-row justify-center">
+          <div className="experience-div min-[1184px]:max-w-lg xl:max-w-xl lg:mr-8">
             <h2 className="mt-4 text-xl">Professional:</h2>
             <div className="project-container">{professionalArray}</div>
             <div>
@@ -101,8 +105,61 @@ function App() {
                 </a>
               </Button>
               <p>
-                FYI this portfolio is built on React using Typescript and
-                Javascript, TailwindCSS, and NextUI.
+                FYI this portfolio is built with{" "}
+                <span
+                  style={{
+                    backgroundColor: "#169ECA",
+                    color: "white",
+                    borderRadius: "3px",
+                    padding: "0.1em 0.4em",
+                  }}
+                >
+                  React
+                </span>{" "}
+                using{" "}
+                <span
+                  style={{
+                    backgroundColor: "#397CC7",
+                    color: "white",
+                    borderRadius: "3px",
+                    padding: "0.1em 0.4em",
+                  }}
+                >
+                  Typescript
+                </span>
+                ,{" "}
+                <span
+                  style={{
+                    backgroundColor: "#F0DC56",
+                    borderRadius: "3px",
+                    padding: "0.1em 0.4em",
+                  }}
+                >
+                  Javascript
+                </span>
+                ,{" "}
+                <span
+                  style={{
+                    backgroundColor: "#37BDF8",
+                    color: "white",
+                    borderRadius: "3px",
+                    padding: "0.1em 0.4em",
+                  }}
+                >
+                  TailwindCSS
+                </span>
+                , and{" "}
+                <span
+                  style={{
+                    backgroundColor: "black",
+                    color: "#E12DF7",
+                    borderRadius: "3px",
+                    padding: "0.1em 0.4em",
+                  }}
+                >
+                  NextUI
+                </span>
+                .
               </p>
             </div>
           </div>

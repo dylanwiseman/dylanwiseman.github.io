@@ -163,7 +163,7 @@ a:active {
   color: black;
 }
 .tag-container {
-  width: 120px;
+  width: 102px;
 }
 
 .divider {
@@ -202,6 +202,6 @@ a:active {
     margin-right: 0.1em;
   }
   .tag-container {
-    display: none;
+    /* display: none; */
   }
 }

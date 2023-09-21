@@ -5,6 +5,7 @@ import workout from "./images/w.png";
 import sunset from "./images/mazebg.png";
 import pickleball from "./images/pickleballbg.png";
 import jpfc from "./images/jpfcbg.png";
+import poke from "./images/poke.png";
 
 export const projects = [
   {
@@ -34,9 +35,9 @@ export const projects = [
   },
   {
     name: "Pokébase",
-    link: "https://dylanwiseman.github.io/maze-crawler/",
-    github: "https://github.com/dylanwiseman/maze-crawler",
-    image: sunset,
+    link: "https://github.com/dylanwiseman/pokemon-project",
+    github: "https://github.com/dylanwiseman/pokemon-project",
+    image: poke,
     desc: "Simple Pokémon database to practice using Vue.js and Nuxt",
     tags: ["Vue.js", "Typescript", "Nuxt", "CSS"],
   },

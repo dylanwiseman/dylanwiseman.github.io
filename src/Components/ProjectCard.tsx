@@ -22,9 +22,13 @@ export default function ProjectCard({
       case "React":
         color = "#169ECA";
         break;
+      case "Figma":
+        color = "#212329";
+        fontColor = "#F86E5F";
+        break;
       case "React Native":
-        color = "#61DAFB";
-        fontColor = "black";
+        color = "#212329";
+        fontColor = "#61DAFB";
         break;
       case "CSS":
         color = "#2D52E5";
@@ -62,6 +66,13 @@ export default function ProjectCard({
       case "TailwindCSS":
         color = "#37BDF8";
         break;
+      case "Vue.js":
+        color = "#42B883";
+        break;
+      case "Nuxt":
+        fontColor = "#01DD81";
+        color = "black";
+        break;
       default:
         color = "black";
     }
@@ -92,15 +103,15 @@ export default function ProjectCard({
       <a href={link ? link : github} target="_blank" rel="noopener noreferrer">
         <Image
           alt="Album cover"
-          className="object-cover shadow-none rounded-sm absolute z-0 h-[175px]"
+          className="object-cover shadow-none rounded-sm absolute z-0 h-[175px] overflow-y-hidden"
           // height={175}
           width="100%"
           shadow="none"
           src={image}
         />
-        <CardBody className="group bg-gradient-to-r from-white to-white/30 flex-col p-0 backdrop-blur-sm hover:backdrop-blur-none transition-all duration-1000 td-1000 border border-black h-[175px]">
+        <CardBody className="group bg-gradient-to-r from-white to-white/30 flex-col p-0 backdrop-blur-sm hover:backdrop-blur-none transition-all duration-1000 td-1000 border border-black h-[175px] overflow-y-hidden">
           <div className="flex flex-row justify-between w-full">
-            <div className="project-content py-4 pl-4 pr-0 grow-2">
+            <div className="project-content py-4 pl-4 pr-0">
               <a
                 href={link}
                 target="_blank"
