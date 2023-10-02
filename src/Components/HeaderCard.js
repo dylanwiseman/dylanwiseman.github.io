@@ -110,7 +110,7 @@ export default function GlassCard() {
             radius="none"
             variant="light"
           >
-            <a href="https://www.instagram.com/dylwiseman/">
+            <a href="https://dylanwiseman.myportfolio.com/">
               <Image
                 alt="Album cover"
                 className="object-cover rounded-none"
