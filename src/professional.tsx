@@ -1,5 +1,4 @@
 import weave from "./images/weave.png";
-import techshed from "./images/tshed.jpg";
 
 export const professional = [
   {
